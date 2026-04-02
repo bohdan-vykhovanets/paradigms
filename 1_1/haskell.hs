@@ -1,4 +1,3 @@
-import Control.Monad.RWS (MonadState(put))
 moveMaxToFront :: [Int] -> [Int]
 moveMaxToFront [] = []
 moveMaxToFront xs = 
